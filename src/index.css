@@ -7,3 +7,54 @@
   z-index: 1;
 }
 
+/* @keyframes slideDown {
+  0% {
+      top: 5px;
+  }
+  100% {
+      top: 100%; 
+  }
+} */
+
+.word-animation {
+  position: relative;
+  top: 25px;
+  animation: slideDown 2s ease-in-out infinite;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-8%);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.word-animation {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.word-animation.active {
+  animation: slideDown 1.2s ease-in-out infinite;
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+    transition: all 300ms ease-out;
+  }
+}
+
+.slide-animation {
+  animation: slideLeftToRight 5s linear infinite;
+}
+
+
