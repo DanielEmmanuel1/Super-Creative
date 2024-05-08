@@ -45,16 +45,30 @@
 
 @keyframes slideLeftToRight {
   0% {
-    transform: translateX(-10%);
+    transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
-    transition: all 300ms ease-out;
+  }
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
 .slide-animation {
-  animation: slideLeftToRight 5s linear infinite;
+  animation: slideLeftToRight 10s linear infinite;
 }
+
+.slide-animation2 {
+  animation: slideRightToLeft 10s linear infinite;
+}
+
+
 
 

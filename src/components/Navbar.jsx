@@ -1,6 +1,6 @@
 const Navbar = () => {
     return ( 
-        <nav className="flex justify-between mx-[5%] my-[2%]">
+        <nav className="md:flex justify-between mx-[5%] my-[2%] hidden">
             <div>Super Creative</div>
             <ul className="flex gap-8">
                 <li>About</li>
