@@ -28,7 +28,7 @@ const App = () => {
           <div
             id="agency"
             ref={words}
-            className="word-animation relative max-w-fit max-h-fit inline-flex flex-col items-center"
+            className="word-animation relative max-w-[20rem] max-h-fit inline-flex flex-col items-center"
           >
             <span className=""></span>
             <img
