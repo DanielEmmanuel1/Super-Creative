@@ -22,9 +22,9 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center bg-hero-pattern py-8 relative px-[1em]">
+      <div className="lg:flex flex-col items-center bg-hero-pattern py-8 relative px-[1em]">
         <h1 className="text-[5rem] font-bold lg:w-[50%] text-center">
-          The Creative
+          The Creative{" "}
           <div
             id="agency"
             ref={words}
@@ -61,7 +61,7 @@ const App = () => {
         </div>
         <br />
         <div className="lg:flex-row gap-4 flex flex-col">
-          <button className="bg-[#E52424] text-white text-sm py-2 px-4 border rounded-xl">
+          <button className="bg-[#E52424] text-white text-sm py-2 px-4 rounded-xl">
             Let's Talk
           </button>
           <button className="bg-white text-[#E52424] border-[#E52424] text-sm p-2 border rounded-xl">
@@ -77,15 +77,15 @@ const App = () => {
         />
       </div>
 
-      <div className="lg:flex-row justify-center gap-6 lg:w-full h-[800px] border-2 border-red-600 w-[80%] mx-auto flex flex-col">
+      <div className="lg:flex-row justify-center gap-6 lg:mb-0 lg:w-full h-[800px] w-[80%] mx-auto flex flex-col mb-16">
         <div className="relative w-[30%]; h-[70%]">
           <img
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover rounded-2xl"
             src="pictures/guy.png"
             alt=""
           />
-          <div className="lg:flex items-center justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 border rounded-xl border-none lg:px-2 py-2 lg:left-[3.4%] lg:w-[35rem] w-[15rem] h-[5rem] left-[2%] flex">
-            <div>
+          <div className="lg:flex items-center lg:justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 border-none lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[35rem] w-[95%] lg:h-[20%] flex left-[2.6%] rounded-lg">
+            <div className="">
               <h2 className="font-bold lg:text-xl text-white text-sm">
                 Streamline Your Workload
               </h2>
@@ -100,11 +100,11 @@ const App = () => {
 
         <div className="relative w-[30%]; h-[70%]">
           <img
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover rounded-2xl"
             src="pictures/girl.png"
             alt=""
           />
-          <div className="lg:flex-row justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[50rem] w-[15rem] h-[5rem] left-[2%] flex">
+          <div className="lg:flex-row justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[50rem] w-[95%] lg:h-[20%] left-[2.6%] flex rounded-lg">
             <div>
               <h2 className="font-bold lg:text-xl text-white text-xs">
                 Tap into our pool of talented Designers
@@ -119,7 +119,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="lg:flex-row justify-center lg:gap-64 items-center flex flex-col gap-20">
+      <div className="lg:flex-row justify-center lg:mb-16 lg:gap-64 items-center flex flex-col gap-20 mb:16">
         <div>
           <img
             className="w-[300px]"
@@ -144,7 +144,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="lg:flex justify-center lg:gap-56 w-[95%] lg:mx-16  mt-48 mb-56 flex-row mx-auto px-2">
+      <div className="lg:flex justify-center lg:gap-56 w-[95%] lg:mx-16  lg:mt-48 lg:mb-56 flex-row mx-auto px-2 mt-16 mb-16">
         <div className="flex gap-3 flex-col">
           <h1 className="text-[1.5rem] font-semibold">Our Services</h1>
           <p className="lg:font-bold text-[24px] w-[296px] text-lg font-semibold mb-8">
@@ -184,7 +184,9 @@ const App = () => {
               <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
               <p className="lg:text-lg text-sm">2024</p>
             </div>
-            <p className="lg:text-lg text-sm">Crypto & Nft Wallet || UI Exploration</p>
+            <p className="lg:text-lg text-sm">
+              Crypto & Nft Wallet || UI Exploration
+            </p>
           </div>
           <div className="">
             <img
@@ -196,7 +198,9 @@ const App = () => {
               <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
               <p className="lg:text-lg text-sm">2024</p>
             </div>
-            <p className="lg:text-lg text-sm">Crypto & Nft Wallet || UI Exploration</p>
+            <p className="lg:text-lg text-sm">
+              Crypto & Nft Wallet || UI Exploration
+            </p>
           </div>
           <div className="">
             <img
@@ -208,7 +212,9 @@ const App = () => {
               <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
               <p className="lg:text-lg text-sm">2024</p>
             </div>
-            <p className="lg:text-lg text-sm">Crypto & Nft Wallet || UI Exploration</p>
+            <p className="lg:text-lg text-sm">
+              Crypto & Nft Wallet || UI Exploration
+            </p>
           </div>
           <div className="">
             <img
@@ -220,7 +226,9 @@ const App = () => {
               <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
               <p className="lg:text-lg text-sm">2024</p>
             </div>
-            <p className="lg:text-lg text-sm">Crypto & Nft Wallet || UI Exploration</p>
+            <p className="lg:text-lg text-sm">
+              Crypto & Nft Wallet || UI Exploration
+            </p>
           </div>
         </div>
 
@@ -230,21 +238,23 @@ const App = () => {
           </button>
         </div>
 
-        <div className="lg:flex lg:justify-center gap-64 bg-[#E52424] text-white py-32 rounded-t-3xl lg:w-full w-[95%] px-4">
+        <div className="lg:flex lg:justify-center gap-64 bg-[#E52424] text-white py-32 rounded-t-3xl lg:w-full w-[95%] px-4 mx-auto">
           <div className="flex flex-col">
             <div className="flex items-center gap-3 pb-3">
               <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
-              <p className="lg:text-[24px] text-lg font-semibold">What Professionals are saying</p>
+              <p className="lg:text-[24px] text-lg font-semibold">
+                What Professionals are saying
+              </p>
             </div>
-            <p className="lg:text-[16px] w-[369px] text-sm px-4 mb-8">
+            <p className="lg:text-[16px] w-[95%] text-[10px] px-4 mb-8">
               We supply clients across the entire globe with improved network
               connections.
             </p>
           </div>
 
-          <blockquote>
+          <blockquote className="">
             <div className="lg:flex flex-col mx-auto">
-              <img 
+              <img
                 className="lg:w-[15px] pb-8 w-[1rem]"
                 src="./pictures/quote.svg"
                 alt=""
@@ -270,14 +280,13 @@ const App = () => {
           </blockquote>
         </div>
 
-        {/* <div className="h-[502px] flex flex-col gap-2  justify-center">
-          <div className="flex items-center gap-2 mx-32">
+        <div className=" flex flex-col gap-2  justify-center mb-32">
+          <div className="flex items-center gap-2 lg:mt-8 lg:mb-8 lg:ml-20 w-fit m-8">
             <div className="h-2 w-2 border rounded-full bg-[#E52424]"></div>
-            <p>FAQ</p>
+            <p className="text-2xl">FAQ</p>
           </div>
-          <div className="h-2 w-2 border rounded-full"></div>
-          <div className="flex justify-center gap-8 h-[80%] items-center mx-32">
-            <div className="flex flex-col w-full">
+          <div className="lg:flex w-[90%] lg:flex-row justify-center lg:gap-32 lg:h-[80%] items-center mx-auto flex flex-col gap-0">
+            <div className="lg:flex flex-col w-[95%]">
               <div className="">
                 <p className="border-b-1 border-t-2 flex justify-between items-center py-3">
                   Why should I use WWM{" "}
@@ -299,7 +308,7 @@ const App = () => {
             </div>
             <div className="flex flex-col w-full">
               <div className="">
-                <p className="border-b-1 border-t-2 flex justify-between items-center py-3">
+                <p className="lg:border-b-1 lg:border-t-2 flex justify-between items-center py-3 border-t-0">
                   Why should I use WWM{" "}
                   <span className="text-[2.5rem] text-[#E52424]">+</span>
                 </p>
@@ -318,10 +327,10 @@ const App = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="h-[540px] relative overflow-hidden">
-          <div className="border rounded-3xl h-[380px] mx-32 flex justify-end relative">
+        <div className="h-[540px] relative overflow-hidden">
+          <div className="rounded-3xl h-[380px] lg:mx-32 flex justify-end relative mx-8">
             <img
               src="./pictures/team.png"
               alt=""
@@ -329,7 +338,7 @@ const App = () => {
             />
             <div className="flex absolute top-0 left-0 w-full h-full bg-gradient-to-l from-transparent to-65% to-black z-20 border rounded-3xl">
               <div className="flex flex-col justify-center ml-9 gap-6">
-                <span className="text-white w-[339px]">
+                <span className="text-white lg:w-[50%] w-[75%]">
                   Come work with our amazing team as we make wealth accessible
                   to both the current and upcoming generations.
                 </span>
@@ -340,62 +349,66 @@ const App = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-          {/* <div className="h-[278px] max-w-max overflow-hidden flex flex-col gap-8">
-            <div className="w-[180%] flex gap-20 slide-animation">
-              <span className="text-[40px] font-semibold leading-[49.2px] ">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] ">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] ">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] ">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] ">
-                Let’s Work Together.
-              </span>
-            </div>
-            <div className="w-[180%] flex gap-10 ml-[-40px] slide-animation2">
-              <span className="text-[40px] font-semibold leading-[49.2px] 2">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] 2">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] 2">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] 2">
-                Let’s Work Together.
-              </span>
-              <span className="text-[40px] font-semibold leading-[49.2px] 2">
-                Let’s Work Together.
-              </span>
-            </div>
-          </div> */}
+        {/* <div className="h-[278px] max-w-max overflow-hidden flex flex-col gap-8">
+          <div className="w-[180%] flex gap-20 slide-animation">
+            <span className="text-[40px] font-semibold leading-[49.2px] ">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] ">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] ">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] ">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] ">
+              Let’s Work Together.
+            </span>
+          </div>
+          <div className="w-[180%] flex gap-10 ml-[-40px] slide-animation2">
+            <span className="text-[40px] font-semibold leading-[49.2px] 2">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] 2">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] 2">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] 2">
+              Let’s Work Together.
+            </span>
+            <span className="text-[40px] font-semibold leading-[49.2px] 2">
+              Let’s Work Together.
+            </span>
+          </div>
+        </div> */}
       </div>
 
-      {/* <div className="h-[379px] bg-[#1C1C1C] text-white flex justify-center items-center">
+      <div className="h-[379px] bg-[#1C1C1C] text-white flex justify-center items-center w-full">
         <div className="mx-32 w-full">
-          <div>
-            <div>
-              <h3>LOGO</h3>
-            </div>
-            <div className="flex justify-between mb-8 items-center">
+          <div className="flex flex-col">
+            <div className="lg:flex lg:justify-between lg:items-center">
               <div>
-                <span>Lets Work Together!</span>
+                <div>
+                  <h3>LOGO</h3>
+                </div>
+                <div className="flex justify-between mb-8 items-center">
+                  <div>
+                    <span>Lets Work Together!</span>
+                  </div>
+                </div>
               </div>
-              <div className="flex gap-3">
+              <div className="lg:flex lg:flex-row lg:gap-3 mb-8 gap-3 flex flex-col">
                 <div className="border-2 p-2 rounded-r-3xl rounded-l-3xl flex gap-3 items-center">
                   <img className="h-4" src="./pictures/phone.png" alt="" />
                   <span>+2348080063682</span>
                 </div>
-                <div className="border-2 p-2 rounded-r-3xl rounded-l-3xl flex gap-3 items-center">
+                <div className="border-2 lg:p-2 rounded-r-3xl rounded-l-3xl flex gap-3 items-center px-8 py-3">
                   <img className="h-4" src="./pictures/mail.png" alt="" />
                   <span>oluwadamilare_daniel@outlook.com</span>
                 </div>
@@ -404,7 +417,7 @@ const App = () => {
             <hr />
           </div>
 
-          <div className="flex justify-between items-center mt-8">
+          <div className="lg:flex lg:flex-row lg:justify-between lg:items-center mt-8 flex flex-col gap-8">
             <div className="flex gap-3">
               <img src="./pictures/whatsapp.png" alt="" />
               <img src="./pictures/twitter.png" alt="" />
@@ -418,7 +431,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
