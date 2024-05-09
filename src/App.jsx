@@ -23,7 +23,7 @@ const App = () => {
     <>
       <Navbar />
       <div className="lg:flex flex-col items-center bg-hero-pattern py-8 relative px-[1em]">
-        <h1 className="text-[5rem] font-bold lg:w-[50%] text-center">
+        <h1 className="lg:text-[5rem] font-bold lg:w-[50%] text-center text-[3rem]">
           The Creative{" "}
           <div
             id="agency"
