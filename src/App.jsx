@@ -28,13 +28,13 @@ const App = () => {
           <div
             id="agency"
             ref={words}
-            className="word-animation relative max-w-[20rem] max-h-fit inline-flex flex-col items-center"
+            className="word-animation relative w-[12rem] lg:w-[18rem] max-h-fit inline-flex flex-col items-center"
           >
-            <span className=""></span>
+            <span className="inline-flex justify-center text-center"></span>
             <img
               src="/pictures/path.svg"
               alt="path"
-              className="absolute bottom-1 -z-10 h-4 w-[250px] ml"
+              className="absolute bottom-1 -z-10 h-4 w-full ml"
             />
             {wordArray[index]}
           </div>{" "}
