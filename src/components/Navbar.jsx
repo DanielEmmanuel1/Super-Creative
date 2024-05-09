@@ -2,10 +2,10 @@ const Navbar = () => {
   return (
     <nav className="lg:flex justify-between mx-[5%] my-[2%] items-center">
       <div className="flex justify-between">
-        <div className="lg:flex-row lg:gap-2 lg:font-bold font-bold text-[1rem] flex flex-col">
+        <div className="lg:flex-row lg:gap-2 lg:font-bold text-[1rem] flex flex-col font-semibold">
           Super <span>Creative</span>
         </div>
-        <img className="lg:hidden" src="./pictures/menu.svg" alt="" />
+        <img className="img lg:hidden" src="./pictures/menu.svg" alt="" />
       </div>
       <ul className="lg:flex gap-8 hidden">
         <li>About</li>

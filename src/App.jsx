@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="lg:flex flex-col items-center bg-hero-pattern py-8 relative px-[1em]">
+      <div className="lg:h-fit flex flex-col items-center justify-center bg-hero-pattern py-8 relative px-[1em] mt-8 h-[40rem]">
         <h1 className="lg:text-[5rem] font-bold lg:w-[50%] text-center text-[3rem]">
           The Creative{" "}
           <div
@@ -45,7 +45,7 @@ const App = () => {
           Lets reduce the work load for you and help you scale your freelance
           business
         </p>
-        <div className="flex">
+        <div className="flex justify-center">
           <div>
             <img src="./pictures/pic1.png" alt="" />
           </div>
@@ -60,11 +60,11 @@ const App = () => {
           </div>
         </div>
         <br />
-        <div className="lg:flex-row gap-4 flex flex-col">
-          <button className="bg-[#E52424] text-white text-sm py-2 px-4 rounded-xl">
+        <div className="lg:flex-row gap-4 flex flex-col w-fit mx-auto">
+          <button className="bg-[#E52424] text-white text-sm py-2 lg:px-4 rounded-xl w-fit px-[4rem]">
             Let's Talk
           </button>
-          <button className="bg-white text-[#E52424] border-[#E52424] text-sm p-2 border rounded-xl">
+          <button className="bg-white text-[#E52424] border-[#E52424] text-sm p-2 border rounded-xl w-fit px-8">
             Explore Our Works
           </button>
         </div>
@@ -77,14 +77,14 @@ const App = () => {
         />
       </div>
 
-      <div className="lg:flex-row justify-center gap-6 lg:mb-0 lg:w-full h-[800px] w-[80%] mx-auto flex flex-col mb-16">
+      <div className="px-4 lg:flex-row justify-center gap-6 lg:mb-0 lg:w-full h-[800px] w-[80%] mx-auto flex flex-col mb-16">
         <div className="relative w-[30%]; h-[70%]">
           <img
             className="h-full w-full object-cover rounded-2xl"
             src="pictures/guy.png"
             alt=""
           />
-          <div className="lg:flex items-center lg:justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 border-none lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[35rem] w-[95%] lg:h-[20%] flex left-[2.6%] rounded-lg">
+          <div className="lg:flex items-center lg:justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 border-none lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[95%] w-[95%] lg:h-[20%] flex left-[2.6%] rounded-lg">
             <div className="">
               <h2 className="font-bold lg:text-xl text-white text-sm">
                 Streamline Your Workload
@@ -104,7 +104,7 @@ const App = () => {
             src="pictures/girl.png"
             alt=""
           />
-          <div className="lg:flex-row justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[50rem] w-[95%] lg:h-[20%] left-[2.6%] flex rounded-lg">
+          <div className="lg:flex-row justify-between bg-[rgba(0,0,0,0.4)] absolute bottom-3 lg:rounded-xl px-2 py-2 lg:left-[3.4%] lg:w-[95%] w-[95%] lg:h-[20%] left-[2.6%] flex rounded-lg">
             <div>
               <h2 className="font-bold lg:text-xl text-white text-xs">
                 Tap into our pool of talented Designers
@@ -389,7 +389,7 @@ const App = () => {
         </div> */}
       </div>
 
-      <div className="h-[379px] bg-[#1C1C1C] text-white flex justify-center items-center w-full">
+      <div className="h-[379px] bg-[#1C1C1C] text-white flex justify-center items-center">
         <div className="mx-32 w-full">
           <div className="flex flex-col">
             <div className="lg:flex lg:justify-between lg:items-center">

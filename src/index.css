@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.img {
+  width: 2.5rem;
+}
+
 /* .make-way {
   text-underline-offset: 5px;
   z-index: 1;
